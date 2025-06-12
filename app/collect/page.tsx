@@ -8,7 +8,7 @@ import { toast } from 'react-hot-toast'
 import { getWasteCollectionTasks, updateTaskStatus, saveReward, saveCollectedWaste, getUserByEmail } from '@/utils/db/actions'
 import { GoogleGenerativeAI } from "@google/generative-ai"
 // import jsPDF from 'jspdf'
-// import html2canvas  from 'html2canvas'
+import html2canvas  from 'html2canvas'
 import React, { useRef } from 'react'
 
 // Make sure to set your Gemini API key in your environment variables
